@@ -1,7 +1,6 @@
+import 'package:constru_expert/src/features/architect/domain/entities/architect.dart';
+import 'package:constru_expert/src/features/client/domain/entities/client.dart';
 import 'package:equatable/equatable.dart';
-
-import 'package:constru_expert/features/architect/domain/entities/architect.dart';
-import 'package:constru_expert/features/client/domain/entities/client.dart';
 
 class Construction extends Equatable {
   final String id;
